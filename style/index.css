@@ -490,7 +490,7 @@ footer {
     z-index: -999;
   }
   .blue {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     background: linear-gradient(to right, #2b6be2bd, #2b6be2bd),
       url("../image/IMG-20200710-WA0037.jpg");
