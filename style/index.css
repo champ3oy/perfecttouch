@@ -134,6 +134,10 @@ html {
   height: 90vh;
   width: 40%;
   background-color: #2bbde2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 .motto-con {
   padding: 50px;
@@ -903,3 +907,4 @@ footer {
     background-repeat: no-repeat;
   }
 }
+
