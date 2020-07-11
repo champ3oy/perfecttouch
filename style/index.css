@@ -54,6 +54,18 @@ html {
   padding-right: 50px;
   background-color: white;
 }
+.frontcall {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Calibre-Medium;
+  cursor: pointer;
+}
 .logo-con {
   display: flex;
   flex-direction: row;
@@ -242,10 +254,10 @@ html {
   padding: 50px;
   flex-direction: column;
   height: 100vh;
-  background-image: url("../image/circular.png");
+  /* background-image: url("../image/circular.png");
   background-size: 600px 600px;
   background-position: -300px 0;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 .s-sub {
   text-align: center;
@@ -352,6 +364,7 @@ html {
   color: white;
   font-weight: bold;
   font-size: 20px;
+  cursor: pointer;
 }
 .end {
   width: 100%;
@@ -451,8 +464,8 @@ footer {
     padding: 20px;
     border-radius: 10px;
     background-color: white;
-    right: 10px;
-    top: 10px;
+    right: 1vh;
+    top: 10vh;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.527);
   }
   .menu div {
@@ -532,7 +545,7 @@ footer {
     z-index: -999;
   }
   .blue {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background: linear-gradient(to right, #2b6be2bd, #2b6be2bd),
       url("../image/IMG-20200710-WA0037.jpg");
@@ -595,6 +608,7 @@ footer {
     font-family: Calibre-SemiBold;
     line-height: 1;
     margin-bottom: 20px;
+    text-align: ;
   }
   .topic {
     font-weight: bold;
@@ -645,7 +659,7 @@ footer {
     border-radius: 5px;
     padding-top: 12px;
     cursor: pointer;
-    font-size: 10px;
+    font-size: 12px;
   }
   .txt-h {
     font-size: 18px;
