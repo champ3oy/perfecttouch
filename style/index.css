@@ -453,6 +453,21 @@ footer {
 .menu {
   display: none;
 }
+.r1 {
+  background: linear-gradient(to top, #ff0062dc, #ff006252), url('../image/1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.r2 {
+  background: linear-gradient(to top, #ff0062dc, #ff006252), url('../image/2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.r3 {
+  background: linear-gradient(to top, #ff0062dc, #ff006252), url('../image/3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* MOBILE */
 @media only screen and (max-width: 770px) {
@@ -770,7 +785,7 @@ footer {
   .rimg {
     width: 200px;
     height: 150px;
-    background-color: #ff0062;
+    /* background-color: #ff0062; */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
