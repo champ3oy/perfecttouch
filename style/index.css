@@ -863,10 +863,11 @@ footer {
   footer {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 70px;
     font-size: 10px;
+    margin-left: 10px;
   }
   .logo-bottom {
     width: 120px;
