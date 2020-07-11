@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Calibre-SemiBold;
+  src: url("../fonts/Calibre-SemiBold.21cc3335.woff") format("woff"),
+    url("../fonts/Calibre-SemiBold.2c27f793.ttf") format("truetype"),
+    url("../fonts/Calibre-Semibold.320db03b.svg#Calibre-Semibold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Calibre-Medium;
+  src: url("../fonts/Calibre-Medium.bb31c6b1.woff") format("woff"),
+    url("../fonts/Calibre-Medium.cb484263.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Calibre-Regular;
+  src: url("../fonts/Calibre-Regular.0e30637c.woff") format("woff"),
+    url("../fonts/Calibre-Regular.ad23bcd8.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.aboutus {
+  width: 100%;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.aboutush1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Calibre-SemiBold;
+  color: #10074b;
+}
+.aboutusd {
+  color: rgb(36, 36, 36);
+  font-family: Calibre-Regular;
+  font-size: large;
+}
+.admin {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.adminimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  margin-right: 40px;
+}
+.adminimg2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+  margin-right: 40px;
+  position: absolute;
+  margin-top: -50px;
+  border: solid 5px white;
+}
+
+/* MOBILE */
+@media only screen and (max-width: 770px) {
+  .aboutus {
+    width: 100%;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .aboutush1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Calibre-SemiBold;
+    color: #10074b;
+  }
+  .aboutusd {
+    color: rgb(36, 36, 36);
+    font-family: Calibre-Regular;
+    font-size: large;
+  }
+  .admin {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .adminimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-right: 40px;
+  }
+  .adminimg2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
+    margin-right: 40px;
+    position: absolute;
+    margin-top: -50px;
+    border: solid 5px white;
+  }
+  .con {
+      margin-bottom: 50px;
+      text-align: center;
+  }
+}
