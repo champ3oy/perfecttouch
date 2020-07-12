@@ -231,6 +231,74 @@ html {
   box-shadow: 5px 5px 20px #2b6be2;
   
 }
+.screening-con {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  
+}
+.screening {
+  width: 100%;
+  height: auto;
+  background-color: #2b6be2;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: 5px 5px 20px #2b6be2;
+  
+}
+.screen-con {
+  width: 50%;
+}
+.screen-h {
+  font-size: 35px;
+  font-family: Calibre-SemiBold;
+  line-height: 1;
+  margin-bottom: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.screen-d {
+  line-height: 1;
+  margin-bottom: 10px;
+  color: white;
+}
+.screening-imgs {
+  height: 300px;
+  background: url('../image/scr3.jpg');
+  width: 45%;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 20px;
+  padding-right: 40px;
+  border-radius: 10px;
+  /* border: solid 2px white */
+}
+.simg1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 150px;
+  border: solid 5px #2b6be2;
+  margin-right: 50px;
+  margin-bottom: 20px
+}
+.simg2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+  border: solid 5px #2b6be2;
+  position: absolute;
+}
 .callbtn {
   background-color: #ff0062;
   padding: 15px;
@@ -328,14 +396,14 @@ html {
   justify-content: space-around;
 }
 .eachr {
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: auto;
   background-color: white;
   border-radius: 10px;
   box-shadow: 3px 5px 10px rgba(128, 128, 128, 0.3);
 }
 .rimg {
-  width: 200px;
+  width: 250px;
   height: 150px;
   background-color: #ff0062;
   border-top-left-radius: 10px;
@@ -468,7 +536,7 @@ footer {
   background-repeat: no-repeat;
 }
 .r3 {
-  background: linear-gradient(to top, #ff0062dc, #ff006252), url('../image/3.jpg');
+  background: linear-gradient(to top, #ff0062dc, #ff006252), url('../image/kuk.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -780,14 +848,14 @@ footer {
   }
   .eachr {
     margin-bottom: 20px;
-    width: 200px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     background-color: white;
     border-radius: 10px;
     box-shadow: 3px 5px 10px rgba(128, 128, 128, 0.3);
   }
   .rimg {
-    width: 200px;
+    width: 100%;
     height: 150px;
     /* background-color: #ff0062; */
     border-top-left-radius: 10px;
@@ -906,6 +974,75 @@ footer {
     background-image: url("../image/baby2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .screening-con {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+    
+  }
+  .screening {
+    width: 100%;
+    height: auto;
+    background-color: #2b6be2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 20px #2b6be2;
+    
+  }
+  .screen-con {
+    width: 100%;
+  }
+  .screen-h {
+    font-size: 35px;
+    font-family: Calibre-SemiBold;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+  .screen-d {
+    line-height: 1;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .screening-imgs {
+    height: 300px;
+    background: url('../image/scr3.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    /* border: solid 2px white */
+    margin-bottom: 20px;
+  }
+  .simg1 {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    border: solid 5px #2b6be2;
+    margin-right: 50px;
+    margin-bottom: 20px
+  }
+  .simg2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 150px;
+    border: solid 5px #2b6be2;
+    position: absolute;
   }
 }
 
