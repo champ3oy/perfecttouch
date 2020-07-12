@@ -305,7 +305,7 @@ html {
 }
 .review-con {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(228, 248, 248);
   display: flex;
   justify-content: center;
