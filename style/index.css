@@ -531,7 +531,7 @@ footer {
   background-repeat: no-repeat;
 }
 .r2 {
-  background: linear-gradient(to top, #ff0062dc, #ff006252), url('../image/2.png');
+  background: linear-gradient(to top, #ff0062dc, #ff006252), url('../image/gal2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -561,7 +561,8 @@ footer {
     border-bottom: solid 1px lightgray;
     padding: px;
     cursor: pointer;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 30px;
   }
   .menu div:hover {
     color: #2b6be2;
