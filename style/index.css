@@ -540,9 +540,42 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.gallinks {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.gallinks a {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  color: rgb(29, 28, 28);
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
 
 /* MOBILE */
 @media only screen and (max-width: 770px) {
+  .gallinks {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .gallinks a {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(29, 28, 28);
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+  }
   .show {
     display: block;
   }
